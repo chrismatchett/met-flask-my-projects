@@ -1,14 +1,12 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - Flaskr</title>
+<title>{% block title %}{% endblock %} - My Projects</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <nav>
-  <h1>Notes</h1>
+  <h1>My Projects</h1>
 </nav>
 <section class="content">
   <header>
     {% block header %}{% endblock %}
   </header>
   {% block content %}{% endblock %}
-
-  {% block george %}{% endblock %}
 </section>
